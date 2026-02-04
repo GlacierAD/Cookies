@@ -2,25 +2,103 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
 
+A modern Angular application designed for further development, customization, and deployment.
+Below you will find full instructions for cloning, running, building, and contributing to the project.
+
+## How to Download or Clone the Project
+
+### Option 1 — Clone via Git (recommended)
+
+```
+git clone <repository-url>
+cd Cookies
+```
+### Option 2 — Download ZIP
+
+1. Open the repository page.
+2. Click Code → Download ZIP.
+3. Unzip the archive.
+4. Open the folder in your IDE.
+
+## Install Dependencies
+
+Before running the project, install all required packages:
+
+```
+npm install
+```
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run the development server:
+
+```
+ng serve
+```
+
+Then open:
+
+```
+http://localhost:4200/
+```
+
+The application will automatically reload when you change any source files.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Generate a new component:
+
+```
+ng generate component component-name
+```
+
+You can also generate:
+
+- directives
+- pipes
+- services
+- classes
+- guards
+- interfaces
+- enums
+- modules
+
+Example:
+
+```
+ng generate service services/auth
+```
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To build the project for production:
+
+```
+ng build
+```
+
+The build output will be stored in the `dist/` directory.
+
+To build with optimization flags:
+
+```
+ng build --configuration production
+```
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute unit tests via Karma:
 
+```
+ng test
+```
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+ng e2e
+```
+
+To use this command, install an e2e testing package (e.g., Cypress or Protractor).
 
 ## Further help
 
